@@ -8,8 +8,8 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      ../../modules/system/locate.nix
-#      ../../modules/system/network.nix
+      ../../modules/system/location.nix
+      ../../modules/system/network.nix
     ];
 
   # Bootloader.
