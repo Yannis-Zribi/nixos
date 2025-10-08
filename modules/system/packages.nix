@@ -16,7 +16,6 @@
      i3lock
      xterm
      alacritty
-     google-chrome
   ];
 
  
@@ -24,6 +23,7 @@
   users.users.yannis = {
     packages = with pkgs; [
       tree
+      google-chrome
     ];
   };
 }
